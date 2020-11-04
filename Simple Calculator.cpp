@@ -66,15 +66,8 @@ int main()
          cout << "\nQuotient = " << x;
          break;
 
-      //Square
-      case 5:
-         cout << "Enter any number: \n";
-         cin >> num1;
-         x = num1 * num1;
-         cout << "Square = " << x;
-         break;
 
-      case 6:
+      case 5:
          return 0;
 
       default: cout << "\nError";
